@@ -1,0 +1,194 @@
+[
+  {
+    "id": "c001",
+    "name": "Thon rosé naturel",
+    "url": "https://www.coop.ch/fr/nourriture/garde-manger/conserves/poisson/thon-sans-huile/thon-rose-naturel/p/3950233",
+    "price": 1.95
+  },
+  {
+    "id": "c016",
+    "name": "Saumon fumé Scotland",
+    "url": "https://www.coop.ch/fr/nourriture/viandes-poissons/poissons-emballes/poissons-fumes/saumon-fume-scotland/p/4833107",
+    "price": 7.95
+  },
+  {
+    "id": "c017",
+    "name": "MSC Sardines à l'huile d'olive",
+    "url": "https://www.coop.ch/fr/nourriture/garde-manger/conserves/poisson/poissons-marines-moules/msc-sardines-a-l-huile-d-olive/p/3947656",
+    "price": 1.9
+  },
+  {
+    "id": "c018",
+    "name": "Crevettes MSC décortiquées et cuites",
+    "url": "https://www.coop.ch/fr/nourriture/viandes-poissons/poissons-emballes/crustaces-fruits-de-mer/crevettes-prix-garantie-msc-decortiquees-et-cuites-en-saumure-aigre-douce/p/5829349",
+    "price": 5.5
+  },
+  {
+    "id": "c002",
+    "name": "Poitrines de poulet en tranches extra fines",
+    "url": "https://www.coop.ch/fr/nourriture/viandes-poissons/charcuteries-saucisses/jambon-charcuteries/charcuterie/poitrines-de-poulet-en-tranches-extra-fines-env/p/3877959",
+    "price": 3.75
+  },
+  {
+    "id": "c019",
+    "name": "Mini filets de poulet",
+    "url": "https://www.coop.ch/fr/nourriture/viandes-poissons/viandes-fraiches-emballees/volaille/mini-filets-de-poulet-prix-garantie-env/p/7341460",
+    "price": 9.5
+  },
+  {
+    "id": "c020",
+    "name": "Poitrine de dinde en tranches extra fines",
+    "url": "https://www.coop.ch/fr/nourriture/viandes-poissons/charcuteries-saucisses/jambon-charcuteries/charcuterie/poitrine-de-dinde-en-tranches-extra-fines-env/p/3877877",
+    "price": 3.8
+  },
+  {
+    "id": "c021",
+    "name": "Viande de boeuf hachée Prix Garantie low fat",
+    "url": "https://www.coop.ch/fr/nourriture/viandes-poissons/viandes-fraiches-emballees/viande-hachee/viande-de-boeuf-hachee-prix-garantie-low-fat-env/p/7369961",
+    "price": 6.5
+  },
+  {
+    "id": "c022",
+    "name": "Poulet rôti entier",
+    "url": "https://www.coop.ch/fr/nourriture/viandes-poissons/viandes-fraiches-emballees/volaille/prix-garantie-poulet-ca/p/7089797",
+    "price": 10.95
+  },
+  {
+    "id": "c003",
+    "name": "Oeufs suisses d'élevage au sol",
+    "url": "https://www.coop.ch/fr/nourriture/produits-laitiers-oeufs/oeufs/oeufs-crus/oeufs-suisses-d-elevage-au-sol-53g-10-pieces/p/3080143",
+    "price": 3.2
+  },
+  {
+    "id": "c004",
+    "name": "Skyr Nature",
+    "url": "https://www.coop.ch/fr/nourriture/produits-laitiers-oeufs/yogourts/yogourts-nature/skyr-nature/p/6622281",
+    "price": 2.95
+  },
+  {
+    "id": "c005",
+    "name": "Prix Garantie Quark maigre",
+    "url": "https://www.coop.ch/fr/nourriture/produits-laitiers-oeufs/sere/sere-nature/prix-garantie-quark-maigre/p/6568630",
+    "price": 1.25
+  },
+  {
+    "id": "c006",
+    "name": "Prix Garantie Cottage Cheese nature",
+    "url": "https://www.coop.ch/fr/nourriture/produits-laitiers-oeufs/fromages-emballes/fromages-frais-mozzarella/cottage-cheese/prix-garantie-cottage-cheese-nature/p/6407679",
+    "price": 2.8
+  },
+  {
+    "id": "c014",
+    "name": "Fage Total Yogourt grec nature 0%",
+    "url": "https://www.coop.ch/fr/nourriture/produits-laitiers-oeufs/yogourts/yogourts-nature/fage-total-yogourt-grec-nature-0-gras/p/6973914",
+    "price": 2.5
+  },
+  {
+    "id": "c023",
+    "name": "Mozzarella Mollini light",
+    "url": "https://www.coop.ch/fr/nourriture/produits-laitiers-oeufs/fromages-emballes/fromages-frais-mozzarella/mozzarella-ricotta/mozzarella-mollini-60-de-matiere-grasse-en-moins/p/7318930",
+    "price": 2.2
+  },
+  {
+    "id": "c024",
+    "name": "Emmental en tranches",
+    "url": "https://www.coop.ch/fr/nourriture/produits-laitiers-oeufs/fromages-emballes/fromages-fondus-grilles/fromage-emmental-en-tranches-10-pieces/p/3081221",
+    "price": 3.5
+  },
+  {
+    "id": "c025",
+    "name": "Edamame décortiqués surgelés",
+    "url": "https://www.coop.ch/fr/nourriture/surgeles/fruits-legumes/legumes-plats-de-pommes-de-terre/legumes/edamame-decortiques-surgeles/p/6500167",
+    "price": 3.9
+  },
+  {
+    "id": "c026",
+    "name": "Lentilles vertes en boîte",
+    "url": "https://www.coop.ch/fr/nourriture/garde-manger/conserves/legumes/haricots-legumineuses/lentilles-vertes/p/7257325",
+    "price": 1.5
+  },
+  {
+    "id": "c027",
+    "name": "PowerBar Protein Plus Vanille Coconut",
+    "url": "https://www.coop.ch/fr/nourriture/friandises-snacks/sante-et-des-sports/proteines/powerbar-protein-plus-vanille-coconut/p/5878149",
+    "price": 2.95
+  },
+  {
+    "id": "c028",
+    "name": "Barebells Barre protéinée Salty Peanut",
+    "url": "https://www.coop.ch/fr/nourriture/regimes-specifiques/nutrition-sportive-proteines/barres/barebells-barre-proteinee-salty-peanut/p/6131390",
+    "price": 3.4
+  },
+  {
+    "id": "c029",
+    "name": "Jack Link's Beef Jerky Original",
+    "url": "https://www.coop.ch/fr/nourriture/viandes-poissons/charcuteries-saucisses/snacks-aperitifs/viande-de-boeuf-sechee-jack-link-s-beef-jerky-original/p/7276225",
+    "price": 4.9
+  },
+  {
+    "id": "c007",
+    "name": "Prix Garantie Tortillas de farine",
+    "url": "https://www.coop.ch/fr/nourriture/pains-viennoiseries/pains-durables/pains-galettes-tortillas/prix-garantie-tortillas-de-farine-12-pieces/p/6408324",
+    "price": 3.2
+  },
+  {
+    "id": "c008",
+    "name": "Prix Garantie Riz basmati",
+    "url": "https://www.coop.ch/fr/nourriture/garde-manger/aliments-de-base/riz/basmati-parfume/prix-garantie-fairtrade-riz-basmati/p/6554532",
+    "price": 2.2
+  },
+  {
+    "id": "c009",
+    "name": "Barilla Penne Rigate No 73",
+    "url": "https://www.coop.ch/fr/nourriture/garde-manger/aliments-de-base/pates/penne-rigatoni/barilla-penne-rigate-no-73/p/3032227",
+    "price": 1.2
+  },
+  {
+    "id": "c010",
+    "name": "Pain de mie",
+    "url": "https://www.coop.ch/fr/nourriture/pains-viennoiseries/pains-durables/pains-a-griller-buns/pain-de-mie/p/3735309",
+    "price": 2.2
+  },
+  {
+    "id": "c030",
+    "name": "Prix Garantie Flocons d'avoine complets fins",
+    "url": "https://www.coop.ch/fr/nourriture/garde-manger/mueesli-cereales/mueesli/autres-mueesli/prix-garantie-flocons-d-avoine-complets-fins/p/6524490",
+    "price": 1.6
+  },
+  {
+    "id": "c011",
+    "name": "Mélange de salades",
+    "url": "https://www.coop.ch/fr/nourriture/fruits-legumes/salades/salades-tranchees/betty-bossi-naturaplan-bio-melange-de-salades/p/4426050",
+    "price": 2.5
+  },
+  {
+    "id": "c012",
+    "name": "Prix Garantie Mélange de légumes suisses surgelés",
+    "url": "https://www.coop.ch/fr/nourriture/surgeles/fruits-legumes/legumes-plats-de-pommes-de-terre/melange-de-legumes/prix-garantie-melange-de-legumes-suisses-surgeles/p/4881523",
+    "price": 3.5
+  },
+  {
+    "id": "c015",
+    "name": "Banane",
+    "url": "https://www.coop.ch/fr/nourriture/fruits-legumes/fruits/bananes/prix-garantie-bananes-env/p/6832787",
+    "price": 0.45
+  },
+  {
+    "id": "c013",
+    "name": "Barilla Sauce Tomate Basilic",
+    "url": "https://www.coop.ch/fr/nourriture/garde-manger/sauces-pates-chaudes/pesto-sauces-pour-pates/sauce-tomate-vegetarienne/barilla-sauce-tomate-basilic/p/3020018",
+    "price": 1.8
+  },
+  {
+    "id": "c031",
+    "name": "Cornets glacés Frisco Extrême Vanille",
+    "url": "https://www.coop.ch/fr/nourriture/surgeles/glaces-desserts/glace-en-portions/cornets/cornets-glaces-frisco-extreme-vanille-6x145ml/p/6867992",
+    "price": 1.5
+  },
+  {
+    "id": "c032",
+    "name": "Lindt Excellence Noir 70% de cacao",
+    "url": "https://www.coop.ch/fr/nourriture/friandises-snacks/chocolat-sucreries/chocolat-en-plaques/noir/plaques-de-chocolat-lindt-excellence-noir-70-de-cacao-3x100g/p/4481837",
+    "price": 2.2
+  }
+]

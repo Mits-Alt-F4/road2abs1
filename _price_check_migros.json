@@ -1,0 +1,470 @@
+[
+  {
+    "id": "m001",
+    "mid": "155133700000",
+    "name": "Migros Thon rosé en saumure",
+    "currentPrice": 1.35
+  },
+  {
+    "id": "m016",
+    "mid": "251305600000",
+    "name": "Saumon fumé Atlantique MSC",
+    "currentPrice": 5.5
+  },
+  {
+    "id": "m017",
+    "mid": "155012100000",
+    "name": "Sardines à l'huile d'olive",
+    "currentPrice": 2.1
+  },
+  {
+    "id": "m018",
+    "mid": "251400832000",
+    "name": "Crevettes cuites décortiquées",
+    "currentPrice": 6.5
+  },
+  {
+    "id": "m002",
+    "mid": "241102700300",
+    "name": "Optigal Mini-filet de poulet",
+    "currentPrice": 3.6
+  },
+  {
+    "id": "m003",
+    "mid": "231525083100",
+    "name": "Don Pollo Poitrine de dinde en tranches ultrafines",
+    "currentPrice": 2.95
+  },
+  {
+    "id": "m019",
+    "mid": "231525586000",
+    "name": "Blanc de poulet cuit en tranches",
+    "currentPrice": 4.2
+  },
+  {
+    "id": "m020",
+    "mid": "227220521001",
+    "name": "Boeuf haché maigre M-Classic",
+    "currentPrice": 7.5
+  },
+  {
+    "id": "m004",
+    "mid": "196520001500",
+    "name": "Oeufs de poule M",
+    "currentPrice": 4.5
+  },
+  {
+    "id": "m005",
+    "mid": "205224600000",
+    "name": "You Skyr Nature",
+    "currentPrice": 2.9
+  },
+  {
+    "id": "m006",
+    "mid": "200803100000",
+    "name": "M-Budget Séré maigre",
+    "currentPrice": 1.25
+  },
+  {
+    "id": "m007",
+    "mid": "200604800000",
+    "name": "Migros Cottage Cheese Nature",
+    "currentPrice": 1.2
+  },
+  {
+    "id": "m021",
+    "mid": "205211700000",
+    "name": "Migros High Protein Yogourt Crunchy Vanille",
+    "currentPrice": 2.5
+  },
+  {
+    "id": "m022",
+    "mid": "200655100000",
+    "name": "Mozzarella M-Classic",
+    "currentPrice": 1.9
+  },
+  {
+    "id": "m023",
+    "mid": "161611700000",
+    "name": "Edamame surgelés Bio",
+    "currentPrice": 4.2
+  },
+  {
+    "id": "m024",
+    "mid": "105005300000",
+    "name": "Lentilles rouges en boîte",
+    "currentPrice": 1.4
+  },
+  {
+    "id": "m008",
+    "mid": "205372600000",
+    "name": "Migros High Protein Pudding Choco",
+    "currentPrice": 1.9
+  },
+  {
+    "id": "m025",
+    "mid": "104291000000",
+    "name": "Migros Barre protéinée Cookies & Cream",
+    "currentPrice": 1.4
+  },
+  {
+    "id": "m026",
+    "mid": "233070023300",
+    "name": "Beef Jerky Jack Link's",
+    "currentPrice": 4.9
+  },
+  {
+    "id": "m027",
+    "mid": "204514000000",
+    "name": "Oh! High Protein Drink Choco",
+    "currentPrice": 1.95
+  },
+  {
+    "id": "m009",
+    "mid": "158562500000",
+    "name": "Wraps de blé M-Classic",
+    "currentPrice": 3.8
+  },
+  {
+    "id": "m010",
+    "mid": "104415200000",
+    "name": "Riz complet M-Classic",
+    "currentPrice": 2.1
+  },
+  {
+    "id": "m011",
+    "mid": "104063100000",
+    "name": "Pâtes penne al dente",
+    "currentPrice": 1.8
+  },
+  {
+    "id": "m012",
+    "mid": "111334500000",
+    "name": "Pain protéiné Alnatura",
+    "currentPrice": 3.9
+  },
+  {
+    "id": "m028",
+    "mid": "104202000000",
+    "name": "Flocons d'avoine M-Classic",
+    "currentPrice": 1.5
+  },
+  {
+    "id": "m013",
+    "mid": "131013700000",
+    "name": "Mélange de salades tendre",
+    "currentPrice": 2.9
+  },
+  {
+    "id": "m014",
+    "mid": "161644700000",
+    "name": "Légumes d'été surgelés",
+    "currentPrice": 2.9
+  },
+  {
+    "id": "m015",
+    "mid": "153225300000",
+    "name": "Sauce tomate M-Budget",
+    "currentPrice": 1.2
+  },
+  {
+    "id": "m029",
+    "mid": "160390000000",
+    "name": "Glacé Cornetto classique",
+    "currentPrice": 1.8
+  },
+  {
+    "id": "m030",
+    "mid": "100138400000",
+    "name": "Chocolat au lait Frey",
+    "currentPrice": 2.5
+  },
+  {
+    "id": "m031",
+    "mid": "155133700000",
+    "name": "Mitica Thon rosé en saumure",
+    "currentPrice": 1.5
+  },
+  {
+    "id": "m032",
+    "mid": "251319110000",
+    "name": "M-Classic Maquereau sauce tomate",
+    "currentPrice": 1.8
+  },
+  {
+    "id": "m033",
+    "mid": "251370101200",
+    "name": "M-Classic Filets de pangasius surgelés",
+    "currentPrice": 4.9
+  },
+  {
+    "id": "m034",
+    "mid": "243134000000",
+    "name": "Optigal Escalopes de dinde fraîches",
+    "currentPrice": 6.9
+  },
+  {
+    "id": "m035",
+    "mid": "231525581400",
+    "name": "Don Pollo Jambon de poulet cuit tranché",
+    "currentPrice": 2.8
+  },
+  {
+    "id": "m036",
+    "mid": "241100402000",
+    "name": "Optigal Blanc de poulet rôti",
+    "currentPrice": 4.5
+  },
+  {
+    "id": "m037",
+    "mid": "230502021000",
+    "name": "M-Budget Saucisses de poulet",
+    "currentPrice": 2.9
+  },
+  {
+    "id": "m038",
+    "mid": "104475900000",
+    "name": "M-Classic Pois chiches en boîte",
+    "currentPrice": 1.1
+  },
+  {
+    "id": "m039",
+    "mid": "153012400000",
+    "name": "M-Classic Haricots rouges en boîte",
+    "currentPrice": 1
+  },
+  {
+    "id": "m040",
+    "mid": "130936100000",
+    "name": "Bio Village Tofu nature",
+    "currentPrice": 2.8
+  },
+  {
+    "id": "m041",
+    "mid": "130933900000",
+    "name": "Bio Village Tempeh",
+    "currentPrice": 3.5
+  },
+  {
+    "id": "m042",
+    "mid": "200605400000",
+    "name": "M-Budget Séré battu maigre 0%",
+    "currentPrice": 1.8
+  },
+  {
+    "id": "m043",
+    "mid": "212684200000",
+    "name": "M-Classic Ricotta",
+    "currentPrice": 2.4
+  },
+  {
+    "id": "m044",
+    "mid": "212594300000",
+    "name": "M-Classic Feta",
+    "currentPrice": 2.8
+  },
+  {
+    "id": "m045",
+    "mid": "205223100000",
+    "name": "You Skyr aux fruits rouges",
+    "currentPrice": 1.6
+  },
+  {
+    "id": "m046",
+    "mid": "110203300000",
+    "name": "M-Classic Craquottes",
+    "currentPrice": 2.5
+  },
+  {
+    "id": "m047",
+    "mid": "104466000000",
+    "name": "M-Classic Quinoa",
+    "currentPrice": 3.8
+  },
+  {
+    "id": "m048",
+    "mid": "161619900000",
+    "name": "M-Classic Brocoli surgelé",
+    "currentPrice": 3
+  },
+  {
+    "id": "m049",
+    "mid": "161615400000",
+    "name": "M-Classic Épinards surgelés",
+    "currentPrice": 2.8
+  },
+  {
+    "id": "m052",
+    "mid": "155930900000",
+    "name": "Mitica Anchois à l'huile",
+    "currentPrice": 2.6
+  },
+  {
+    "id": "m053",
+    "mid": "251446003000",
+    "name": "M-Budget Bâtonnets de surimi",
+    "currentPrice": 1.9
+  },
+  {
+    "id": "m054",
+    "mid": "165055900000",
+    "name": "M-Classic Crevettes crues surgelées",
+    "currentPrice": 5.9
+  },
+  {
+    "id": "m055",
+    "mid": "220262000011",
+    "name": "Filet de boeuf suisse",
+    "currentPrice": 11.9
+  },
+  {
+    "id": "m056",
+    "mid": "220633500010",
+    "name": "Filet de porc suisse",
+    "currentPrice": 8.9
+  },
+  {
+    "id": "m057",
+    "mid": "243120750000",
+    "name": "Optigal Dinde hachée fraîche",
+    "currentPrice": 6.5
+  },
+  {
+    "id": "m058",
+    "mid": "233000186300",
+    "name": "M-Classic Viande des grisons",
+    "currentPrice": 4.5
+  },
+  {
+    "id": "m059",
+    "mid": "233070076002",
+    "name": "M-Classic Bresaola",
+    "currentPrice": 4.2
+  },
+  {
+    "id": "m060",
+    "mid": "233014092000",
+    "name": "Prosciutto di Parma",
+    "currentPrice": 3.8
+  },
+  {
+    "id": "m061",
+    "mid": "205008000000",
+    "name": "M-Budget Yaourt nature 0%",
+    "currentPrice": 0.55
+  },
+  {
+    "id": "m062",
+    "mid": "212378700000",
+    "name": "M-Classic Parmesan râpé",
+    "currentPrice": 2.8
+  },
+  {
+    "id": "m063",
+    "mid": "205223000000",
+    "name": "You Skyr Vanille",
+    "currentPrice": 2.9
+  },
+  {
+    "id": "m064",
+    "mid": "205260000000",
+    "name": "M-Classic Kéfir nature",
+    "currentPrice": 2.1
+  },
+  {
+    "id": "m065",
+    "mid": "204022800000",
+    "name": "Migros High Protein Lait chocolat",
+    "currentPrice": 2.5
+  },
+  {
+    "id": "m066",
+    "mid": "104288500000",
+    "name": "M-Budget Graines de citrouille",
+    "currentPrice": 2.2
+  },
+  {
+    "id": "m067",
+    "mid": "104206300000",
+    "name": "M-Bio Graines de chia",
+    "currentPrice": 3.2
+  },
+  {
+    "id": "m068",
+    "mid": "151008700000",
+    "name": "M-Classic Beurre de cacahuètes",
+    "currentPrice": 3.9
+  },
+  {
+    "id": "m069",
+    "mid": "105317600000",
+    "name": "M-Budget Amandes natures",
+    "currentPrice": 3.5
+  },
+  {
+    "id": "m070",
+    "mid": "105006100000",
+    "name": "M-Classic Lentilles brunes sèches",
+    "currentPrice": 1.7
+  },
+  {
+    "id": "m071",
+    "mid": "204514800000",
+    "name": "Migros High Protein Shake Vanille",
+    "currentPrice": 2.9
+  },
+  {
+    "id": "m072",
+    "mid": "104287600000",
+    "name": "Migros High Protein Müesli",
+    "currentPrice": 4.8
+  },
+  {
+    "id": "m073",
+    "mid": "104474100000",
+    "name": "M-Classic Couscous",
+    "currentPrice": 2.2
+  },
+  {
+    "id": "m074",
+    "mid": "274461603300",
+    "name": "M-Budget Pommes de terre",
+    "currentPrice": 2.5
+  },
+  {
+    "id": "m075",
+    "mid": "274380201000",
+    "name": "M-Classic Patate douce",
+    "currentPrice": 1.1
+  },
+  {
+    "id": "m076",
+    "mid": "104223600000",
+    "name": "M-Classic Son d'avoine",
+    "currentPrice": 2
+  },
+  {
+    "id": "m077",
+    "mid": "153100900000",
+    "name": "M-Classic Petits pois surgelés",
+    "currentPrice": 2.7
+  },
+  {
+    "id": "m078",
+    "mid": "153031400000",
+    "name": "M-Classic Haricots verts surgelés",
+    "currentPrice": 2.7
+  },
+  {
+    "id": "m079",
+    "mid": "153410000000",
+    "name": "M-Classic Champignons de Paris frais",
+    "currentPrice": 2.3
+  },
+  {
+    "id": "m080",
+    "mid": "264500313200",
+    "name": "M-Classic Avocat",
+    "currentPrice": 1.4
+  }
+]

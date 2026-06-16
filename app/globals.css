@@ -1,26 +1,107 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: #181a1b;
+  --bg-card: #212426;
+  --bg-elevated: #282c2f;
+  --border: #2e3235;
+  --text-primary: #f0ede8;
+  --text-secondary: #9a9590;
+  --text-muted: #5c5856;
+  --accent-green: #6aad6a;
+  --accent-lime: #b4e040;
+  --accent-lime-dim: #8fb030;
+  --store-coop: #e5261f;
+  --store-migros: #ff6600;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  background: #0f1011;
+  overscroll-behavior: none;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #0f1011;
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
 }
+
+/* Safe area support */
+.safe-top { padding-top: env(safe-area-inset-top); }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+.pb-safe { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+
+/* App container — mobile-first, centered on desktop */
+.app-container {
+  width: 100%;
+  max-width: 480px;
+  min-height: 100dvh;
+  position: relative;
+  background: var(--bg);
+}
+
+/* Desktop: subtle outer glow to frame the app */
+@media (min-width: 600px) {
+  .app-container {
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.05), 0 0 60px rgba(0,0,0,0.6);
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+/* Tap states */
+button, a { -webkit-tap-highlight-color: transparent; }
+
+/* Smooth transitions */
+.step-enter {
+  animation: stepIn 0.22s ease-out;
+}
+
+@keyframes stepIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Pulse animation for loading */
+@keyframes pulse-dot {
+  0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
+  40% { opacity: 1; transform: scale(1); }
+}
+
+.loading-dot:nth-child(1) { animation: pulse-dot 1.2s infinite 0s; }
+.loading-dot:nth-child(2) { animation: pulse-dot 1.2s infinite 0.2s; }
+.loading-dot:nth-child(3) { animation: pulse-dot 1.2s infinite 0.4s; }
+
+/* Store badge colors */
+.badge-coop { background: rgba(229,38,31,0.15); color: #e5261f; border: 1px solid rgba(229,38,31,0.25); }
+.badge-migros { background: rgba(255,102,0,0.15); color: #ff8c42; border: 1px solid rgba(255,102,0,0.25); }
+.badge-either { background: rgba(106,173,106,0.15); color: var(--accent-green); border: 1px solid rgba(106,173,106,0.25); }
+
+/* Macro pill */
+.macro-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.macro-kcal { background: rgba(240,180,60,0.15); color: #f0b43c; }
+.macro-protein { background: rgba(106,173,106,0.15); color: var(--accent-green); }
+.macro-carbs { background: rgba(100,160,240,0.15); color: #64a0f0; }
+.macro-fat { background: rgba(200,140,80,0.15); color: #c88c50; }
