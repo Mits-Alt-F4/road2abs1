@@ -18,6 +18,76 @@ const CATEGORY_LABELS: Record<CategoryFilter, string> = {
   other: "Other",
 };
 
+const SECTION_ORDER = [
+  "Fish & Seafood",
+  "Poultry",
+  "Red Meat",
+  "Deli & Charcuterie",
+  "Eggs",
+  "Plant Protein",
+  "Protein Snacks",
+  "Yogurt, Skyr & Quark",
+  "Cheese",
+  "Milk, Cream & Butter",
+  "Bread & Wraps",
+  "Pasta & Noodles",
+  "Grains, Rice & Potatoes",
+  "Vegetables",
+  "Fruits",
+  "Sauces, Condiments & Spreads",
+  "Sweet Treats",
+  "Other",
+] as const;
+
+const SECTION_ICONS: Record<string, string> = {
+  "Fish & Seafood": "🐟",
+  "Poultry": "🍗",
+  "Red Meat": "🥩",
+  "Deli & Charcuterie": "🥓",
+  "Eggs": "🥚",
+  "Plant Protein": "🌱",
+  "Protein Snacks": "⚡",
+  "Yogurt, Skyr & Quark": "🥣",
+  "Cheese": "🧀",
+  "Milk, Cream & Butter": "🥛",
+  "Bread & Wraps": "🌯",
+  "Pasta & Noodles": "🍝",
+  "Grains, Rice & Potatoes": "🌾",
+  "Vegetables": "🥦",
+  "Fruits": "🍌",
+  "Sauces, Condiments & Spreads": "🍯",
+  "Sweet Treats": "🍫",
+  "Other": "📦",
+};
+
+function getSection(product: Product): string {
+  const n = product.product_name.toLowerCase();
+  if (product.category === "protein_snack") return "Protein Snacks";
+  if (product.category === "treat") return "Sweet Treats";
+  if (/thon|saumon|sardine|crevette|maquereau|truite|anchois|cabillaud|pangasius|surimi/.test(n)) return "Fish & Seafood";
+  if (/jambon|prosciutto|bresaola|grisons|chorizo|lardon|saucisse/.test(n)) return "Deli & Charcuterie";
+  if (/poulet|dinde|volaille/.test(n)) return "Poultry";
+  if (/boeuf|bœuf|porc|veau|agneau/.test(n)) return "Red Meat";
+  if (/oeuf/.test(n)) return "Eggs";
+  const isGreenBean = /haricots? verts?/.test(n);
+  if (!isGreenBean && /tofu|tempeh|edamame|falafel|houmous|pois chiche|lentille|haricot|graine|amande|noix|cajou|cacahu/.test(n)) return "Plant Protein";
+  if (/skyr|yogourt|yaourt|kéfir|kefir|quark|séré|sere|cottage/.test(n)) return "Yogurt, Skyr & Quark";
+  if (/fromage|mozzarella|emmental|feta|ricotta|parmesan|parmigiano|gruyère|gruyere|gouda|philadelphia/.test(n)) return "Cheese";
+  const isCoconut = /coco/.test(n);
+  if (!isCoconut && /lait|crème|creme|beurre/.test(n)) return "Milk, Cream & Butter";
+  if (/pain|tortilla|wrap|naan|pita|craquotte|crispbread|galette de riz|hamburger|chapelure/.test(n)) return "Bread & Wraps";
+  if (/pâtes|pates|penne|fusilli|spaghetti|nouilles/.test(n)) return "Pasta & Noodles";
+  if (/riz|quinoa|avoine|couscous|esli|granola|patate|pomme/.test(n)) return "Grains, Rice & Potatoes";
+  if (product.category === "vegetable") return "Vegetables";
+  if (product.category === "fruit") return "Fruits";
+  if (product.category === "sauce") return "Sauces, Condiments & Spreads";
+  return "Other";
+}
+
+function slugify(section: string): string {
+  return section.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+}
+
 export default function ProductsPage() {
   const [search, setSearch] = useState("");
   const [store, setStore] = useState<"all" | Store>("all");
@@ -59,6 +129,18 @@ export default function ProductsPage() {
 
   const verified = PRODUCTS.filter((p) => p.verification_status === "verified").length;
   const needsReview = PRODUCTS.filter((p) => p.verification_status === "needs_review").length;
+
+  const sections = useMemo(() => {
+    const groups = new Map<string, Product[]>();
+    for (const p of filtered) {
+      const s = getSection(p);
+      if (!groups.has(s)) groups.set(s, []);
+      groups.get(s)!.push(p);
+    }
+    return SECTION_ORDER
+      .map((s) => ({ name: s, items: groups.get(s) ?? [] }))
+      .filter((s) => s.items.length > 0);
+  }, [filtered]);
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -196,8 +278,24 @@ export default function ProductsPage() {
         <span className="text-xs text-[var(--text-muted)]">{filtered.length} product{filtered.length !== 1 ? "s" : ""}</span>
       </div>
 
-      {/* Product grid */}
-      <div className="flex flex-col gap-2 px-4 pb-24">
+      {/* Jump-to-section nav */}
+      {sections.length > 1 && (
+        <div className="flex gap-1.5 overflow-x-auto px-4 pb-2 no-scrollbar">
+          {sections.map((s) => (
+            <button
+              key={s.name}
+              onClick={() => document.getElementById(`section-${slugify(s.name)}`)?.scrollIntoView({ behavior: "smooth", block: "start" })}
+              className="px-2.5 py-1 rounded-full text-[11px] font-semibold whitespace-nowrap flex-shrink-0"
+              style={{ background: "var(--bg-card)", color: "var(--text-muted)", border: "1px solid var(--border)" }}
+            >
+              {SECTION_ICONS[s.name] ?? ""} {s.name} · {s.items.length}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* Product sections */}
+      <div className="flex flex-col gap-4 px-4 pb-24">
         {filtered.length === 0 ? (
           <div className="text-center py-16">
             <p className="text-2xl mb-2">🔍</p>
@@ -210,7 +308,18 @@ export default function ProductsPage() {
             </button>
           </div>
         ) : (
-          filtered.map((product) => <ProductCard key={product.id} product={product} />)
+          sections.map((s) => (
+            <div key={s.name} id={`section-${slugify(s.name)}`} className="scroll-mt-20">
+              <div className="flex items-center gap-2 mb-2 px-1">
+                <span className="text-base">{SECTION_ICONS[s.name] ?? ""}</span>
+                <h2 className="text-sm font-bold text-[var(--text-primary)]">{s.name}</h2>
+                <span className="text-[11px] text-[var(--text-muted)]">{s.items.length}</span>
+              </div>
+              <div className="flex flex-col gap-2">
+                {s.items.map((product) => <ProductCard key={product.id} product={product} />)}
+              </div>
+            </div>
+          ))
         )}
       </div>
     </div>
