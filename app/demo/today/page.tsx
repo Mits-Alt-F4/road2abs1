@@ -26,6 +26,10 @@ const VIBES: { id: Vibe; label: string; emoji: string; hint: string }[] = [
   { id: "post_gym", label: "Post-gym", emoji: "🏋️", hint: "carbs + P" },
   { id: "lazy_dinner", label: "Lazy dinner", emoji: "😴", hint: "minimal effort" },
   { id: "full_dinner", label: "Full dinner", emoji: "🍽️", hint: "proper meal" },
+  { id: "breakfast", label: "Breakfast", emoji: "🌅", hint: "morning fuel" },
+  { id: "on_the_go", label: "On the go", emoji: "🚶", hint: "eat while moving" },
+  { id: "low_carb", label: "Low carb", emoji: "🥑", hint: "minimal carbs" },
+  { id: "comfort_food", label: "Comfort food", emoji: "🍲", hint: "cozy & hearty" },
 ];
 
 const LOADING_STEPS = [

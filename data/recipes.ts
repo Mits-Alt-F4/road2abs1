@@ -7,7 +7,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "chicken-wrap-coop",
     name: "Chicken wrap",
-    vibe: "quick",
+    vibe: "on_the_go",
     store: "coop",
     ingredients: [
       { product_id: "c007", quantity_g: 124, display_quantity: "2 wraps (124g)" },
@@ -1022,7 +1022,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "overnight-oats-coop",
     name: "Overnight oats with skyr",
-    vibe: "sweet_treat",
+    vibe: "breakfast",
     store: "coop",
     ingredients: [
       { product_id: "c030", quantity_g: 80, display_quantity: "80g oats (6–7 tbsp)" },
@@ -1048,7 +1048,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "skyr-framboise-bowl-coop",
     name: "Raspberry skyr bowl with oats",
-    vibe: "sweet_treat",
+    vibe: "breakfast",
     store: "coop",
     ingredients: [
       { product_id: "c048", quantity_packages: 1, display_quantity: "1 pot (200g) raspberry skyr" },
@@ -1187,7 +1187,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "chicken-wrap-migros",
     name: "Chicken & salad wrap",
-    vibe: "quick",
+    vibe: "on_the_go",
     store: "migros",
     ingredients: [
       { product_id: "m009", quantity_g: 110, display_quantity: "2 wraps (110g)" },
@@ -1215,7 +1215,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "shrimp-salad-migros",
     name: "Shrimp & salad power plate",
-    vibe: "quick",
+    vibe: "low_carb",
     store: "migros",
     ingredients: [
       { product_id: "m054", quantity_packages: 1, display_quantity: "1 pack (300g)", preparation_note: "cook from frozen in pan" },
@@ -2256,7 +2256,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "oat-porridge-milk-coop",
     name: "Creamy oat porridge with milk",
-    vibe: "sweet_treat",
+    vibe: "breakfast",
     store: "coop",
     ingredients: [
       { product_id: "c030", quantity_g: 80, display_quantity: "80g oats (6–7 tbsp)" },
@@ -2397,7 +2397,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "carbonara-coop",
     name: "Spaghetti carbonara",
-    vibe: "full_dinner",
+    vibe: "comfort_food",
     store: "coop",
     ingredients: [
       { product_id: "c083", quantity_g: 120, display_quantity: "120g spaghetti dry", preparation_note: "cook 8 min" },
@@ -2426,7 +2426,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "carbonara-migros",
     name: "Spaghetti carbonara",
-    vibe: "full_dinner",
+    vibe: "comfort_food",
     store: "migros",
     ingredients: [
       { product_id: "m081", quantity_g: 120, display_quantity: "120g spaghetti dry", preparation_note: "cook 8 min" },
@@ -2599,7 +2599,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "coconut-chicken-curry-coop",
     name: "Coconut chicken curry",
-    vibe: "full_dinner",
+    vibe: "comfort_food",
     store: "coop",
     ingredients: [
       { product_id: "c019", quantity_g: 200, display_quantity: "200g mini chicken filets", preparation_note: "cut into chunks" },
@@ -3519,7 +3519,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "beef-ragout-carrots-rice-coop",
     name: "Beef ragout with carrots & rice",
-    vibe: "meal_prep",
+    vibe: "comfort_food",
     store: "coop",
     ingredients: [
       { product_id: "c154", quantity_g: 200, display_quantity: "200g (half pack — freeze the rest)" },
@@ -3549,7 +3549,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "beef-ragout-carrots-rice-migros",
     name: "Beef ragout with carrots & rice",
-    vibe: "meal_prep",
+    vibe: "comfort_food",
     store: "migros",
     ingredients: [
       { product_id: "m147", quantity_g: 200, display_quantity: "200g (half pack — freeze the rest)" },
@@ -3701,7 +3701,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "beetroot-gouda-turkey-salad-coop",
     name: "Beetroot, gouda & turkey salad",
-    vibe: "no_cook",
+    vibe: "low_carb",
     store: "coop",
     ingredients: [
       { product_id: "c153", quantity_g: 170, display_quantity: "1 pack (170g)" },
@@ -3729,7 +3729,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "beetroot-gouda-turkey-salad-migros",
     name: "Beetroot, gouda & turkey salad",
-    vibe: "no_cook",
+    vibe: "low_carb",
     store: "migros",
     ingredients: [
       { product_id: "m146", quantity_g: 250, display_quantity: "1 pack (250g)" },
@@ -3757,7 +3757,7 @@ export const RECIPES: Recipe[] = [
   {
     id: "falafel-wrap-coop",
     name: "Falafel wrap",
-    vibe: "quick",
+    vibe: "on_the_go",
     store: "coop",
     ingredients: [
       { product_id: "c147", quantity_g: 120, display_quantity: "~120g (most of pack)", preparation_note: "pan-fry 3-4 min per side" },

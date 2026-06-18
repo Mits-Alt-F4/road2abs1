@@ -47,7 +47,11 @@ export type Vibe =
   | "cheap"
   | "post_gym"
   | "lazy_dinner"
-  | "full_dinner";
+  | "full_dinner"
+  | "breakfast"
+  | "on_the_go"
+  | "low_carb"
+  | "comfort_food";
 
 export interface Recipe {
   id: string;

@@ -16,16 +16,20 @@ import {
 } from "./calc";
 
 const VIBE_RELATED: Record<Vibe, Vibe[]> = {
-  quick: ["quick", "no_cook", "emergency_protein"],
-  no_cook: ["no_cook", "emergency_protein", "sweet_treat", "quick"],
-  max_protein: ["max_protein", "emergency_protein", "post_gym", "quick"],
-  sweet_treat: ["sweet_treat", "no_cook", "max_protein"],
+  quick: ["quick", "no_cook", "emergency_protein", "on_the_go", "breakfast"],
+  no_cook: ["no_cook", "emergency_protein", "sweet_treat", "quick", "on_the_go"],
+  max_protein: ["max_protein", "emergency_protein", "post_gym", "quick", "low_carb"],
+  sweet_treat: ["sweet_treat", "no_cook", "max_protein", "breakfast"],
   emergency_protein: ["emergency_protein", "max_protein", "no_cook"],
-  meal_prep: ["meal_prep", "full_dinner", "post_gym"],
+  meal_prep: ["meal_prep", "full_dinner", "post_gym", "comfort_food"],
   cheap: ["cheap", "quick", "no_cook", "emergency_protein", "lazy_dinner"],
-  post_gym: ["post_gym", "quick", "max_protein", "full_dinner"],
-  lazy_dinner: ["lazy_dinner", "no_cook", "quick", "cheap"],
-  full_dinner: ["full_dinner", "meal_prep", "post_gym"],
+  post_gym: ["post_gym", "quick", "max_protein", "full_dinner", "low_carb"],
+  lazy_dinner: ["lazy_dinner", "no_cook", "quick", "cheap", "comfort_food"],
+  full_dinner: ["full_dinner", "meal_prep", "post_gym", "comfort_food"],
+  breakfast: ["breakfast", "quick", "no_cook", "sweet_treat"],
+  on_the_go: ["on_the_go", "quick", "no_cook", "lazy_dinner"],
+  low_carb: ["low_carb", "max_protein", "post_gym", "no_cook"],
+  comfort_food: ["comfort_food", "full_dinner", "meal_prep", "lazy_dinner"],
 };
 
 function storeMatches(recipe: Recipe, requestedStore: "coop" | "migros" | "either"): boolean {
